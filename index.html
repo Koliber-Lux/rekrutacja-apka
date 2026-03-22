@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dołącz do projektu - App Lojalnościowa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Buduj ze mną <span>Apkę Lojalnościową</span> 📱</h1>
+            <p>Szukam pomocnika dewelopera do wspólnego projektu. Budujemy portfolio i realny produkt!</p>
+        </header>
+
+        <main>
+            <section class="info-cards">
+                <div class="card">
+                    <h3>Stack Techniczny</h3>
+                    <p>React Native / Flutter<br>(Wybierz swój język)</p>
+                </div>
+                <div class="card">
+                    <h3>Co zyskujesz?</h3>
+                    <p>Realny projekt do CV, Code Review i wspólną naukę od zera.</p>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <h2>Zostaw swoje zgłoszenie</h2>
+                <p>Napisz kilka słów o sobie, a odezwę się do wybranych osób!</p>
+                
+                <form action="https://formspree.io/f/xgonjkld" method="POST">
+                    <label for="name">Imię lub Nick:</label>
+                    <input type="text" id="name" name="name" placeholder="Jak się do Ciebie zwracać?" required>
+                    
+                    <label for="email">Adres E-mail:</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Twój mail do kontaktu" required>
+                    
+                    <label for="message">Twoje doświadczenie / O Tobie:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="W czym piszesz? Ile masz lat? Dlaczego chcesz dołączyć?" required></textarea>
+                    
+                    <button type="submit">Wyślij zgłoszenie 🚀</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Startup Project - Wspólna nauka IT</p>
+        </footer>
+    </div>
+</body>
+</html>
